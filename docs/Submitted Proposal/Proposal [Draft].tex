@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vfill
+    \vspace*{2.5in}
+    \begin{tikzpicture}[remember picture, overlay]
+        \draw [line width=1pt] 
+            ($(current page.north west) + (0.5in,-0.5in)$) rectangle 
+            ($(current page.south east) + (-0.5in,0.5in)$);
+    \end{tikzpicture}
+    {\Huge\bfseries Capstone 2025 - Initial Proposal \par}
+    \vspace{0.2in}
+    {\LARGE Tolly Zhang \par}    
+    \vspace{0.2in}
+    {\LARGE December 20, 2024 \par}
+    \vfill
+\end{titlepage}
+
+\newpage
+\section*{Project Overview}
+This project aims develop an aerial package delivery solution capable of transporting small to meadium sized payloads for short-medium range deliveries. The project will have 4 distinct components:
+\begin{enumerate}
+    \item DAMS 
+\end{enumerate}
