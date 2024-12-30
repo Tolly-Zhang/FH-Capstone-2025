@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
+  <diagram name="Page-1" id="opTFxVHu0gOJ7aBRX90U">
+    <mxGraphModel dx="1708" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="glFljDJXkqwpiTUZza7d-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=none;startFill=0;endArrow=classic;sourcePerimeterSpacing=10;targetPerimeterSpacing=10;" edge="1" parent="1" source="glFljDJXkqwpiTUZza7d-3" target="glFljDJXkqwpiTUZza7d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-12" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=none;startFill=0;endArrow=classic;sourcePerimeterSpacing=10;targetPerimeterSpacing=10;" edge="1" parent="1" source="glFljDJXkqwpiTUZza7d-3" target="glFljDJXkqwpiTUZza7d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-3" value="&lt;font&gt;Central Control Unit&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fontFamily=Times New Roman;perimeterSpacing=0;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1500" y="588" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-7" value="&amp;nbsp;Dynamic Flight Control Unit" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fontFamily=Times New Roman;perimeterSpacing=0;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1437" y="723" width="208" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-8" value="Payload Control Unit" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fontFamily=Times New Roman;perimeterSpacing=0;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1779" y="518" width="155" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-13" value="Sensors" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fontFamily=Times New Roman;perimeterSpacing=0;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2051" y="466" width="155" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-14" value="Proximity" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fontFamily=Times New Roman;perimeterSpacing=0;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2191" y="515" width="155" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="glFljDJXkqwpiTUZza7d-15" value="Weight" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;fontFamily=Times New Roman;perimeterSpacing=0;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2133" y="627" width="155" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
