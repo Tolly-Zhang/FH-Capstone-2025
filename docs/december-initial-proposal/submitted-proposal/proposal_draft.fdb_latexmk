@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1735692261.63036 "f:/Projects/FH-Capstone-2025/docs/december-initial-proposal/submitted-proposal/proposal_draft.tex" "proposal_draft.pdf" "proposal_draft" 1735692263.05346 0
+["pdflatex"] 1735692391.3122 "f:/Projects/FH-Capstone-2025/docs/december-initial-proposal/submitted-proposal/proposal_draft.tex" "proposal_draft.pdf" "proposal_draft" 1735692392.57868 0
   "C:/Users/Tolly" 1708134268 17720 4b565b7abe984c23e466d770dd88bfe5 ""
   "C:/Users/Tolly Zhang/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1735608403 81760 910369822cd2d7c359b2482f4c0de4ca ""
   "C:/Users/Tolly Zhang/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1729928696 14064 8b59ac421b49452da9fe3a2af597b55d ""
@@ -123,10 +123,10 @@
   "C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "f:/Projects/FH-Capstone-2025/docs/december-initial-proposal/submitted-proposal/proposal_draft.tex" 1735692261 20536 39970927b2d34290fc8c7ddb8879b154 ""
-  "proposal_draft.aux" 1735692262 3451 90737089d7ef5227b063d5635ba9dc2b "pdflatex"
-  "proposal_draft.out" 1735692262 4537 168d7404958e11af22619b0737b1f715 "pdflatex"
-  "proposal_draft.tex" 1735692261 20536 39970927b2d34290fc8c7ddb8879b154 ""
+  "f:/Projects/FH-Capstone-2025/docs/december-initial-proposal/submitted-proposal/proposal_draft.tex" 1735692390 21327 859306687f7d640b9d179534e7a496d1 ""
+  "proposal_draft.aux" 1735692392 3577 bd80989c00fc279a72c6d31e4fde1307 "pdflatex"
+  "proposal_draft.out" 1735692392 4688 3492ba28b724dc0d3f362bc9bf360195 "pdflatex"
+  "proposal_draft.tex" 1735692390 21327 859306687f7d640b9d179534e7a496d1 ""
   "resources/system-architecture.drawio.pdf" 1735609020 84347 1b8ee79495fab2cab82ca3ea745b1991 ""
   (generated)
   "proposal_draft.aux"
