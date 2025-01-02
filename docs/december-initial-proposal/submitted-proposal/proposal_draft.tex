@@ -5,8 +5,9 @@
 \usetikzlibrary{calc}
 \usepackage{enumitem}
 \usepackage{graphicx}
-\usepackage{hyperref} % Add this package for hyperlinks
-\pdfminorversion=7 % Allow inclusion of PDF version 1.7 files
+\usepackage{hyperref}
+\usepackage{float}
+\pdfminorversion=7
 
 \setlength{\parskip}{1em}
 \setlength{\parindent}{0pt}
@@ -35,6 +36,10 @@
 \begin{center}
     \vspace*{\fill}
     \Large\textit{Nothing in this document is permanent and everything is potentially subject to change.}
+
+    \Large\textit{Ideas and concepts in this document were created with assistance from GPT-4o. Latex code was written by Tolly Zhang with the assistance of GitHub Copilot.}
+
+    \Large\textit{This document, along with other resources for this project, can be found on this project's GitHub page at \href{https://github.com/Tolly-Zhang/FH-Capstone-2025}{this link}.}
     \vspace*{\fill}
 \end{center}
 
@@ -43,37 +48,38 @@
 \setcounter{page}{1}
 
 \section{Project Overview}
+
 \subsection{Background}
 
 \subsubsection{Personal Significance}
-I have a strong interest in aviation and autonomous systems, as well as many skills in engineering, electronics, and computer science. In November 2020 and May 2021, I had the opportunity to work on a project consisting of building a quadcopter drone. At the time, my resources and capabilities were limited. However, as time has passed, so has my knowledge as well as my access to resources. I hope to use this project as a way to further develop my skills and knowledge in these areas, and to create a system that can be used for real-world applications. A "passion project" like this would greatly benefit my portfolio and future career prospects.
+I have a strong passion for aviation and autonomous systems, complemented by skills in engineering, electronics, and computer science. In November 2020 and May 2021, I worked on a project to build a quadcopter drone. At the time, my resources and capabilities were limited, but both my knowledge and access to resources have significantly improved since then. I aim to use this project to further develop my expertise, create a system with real-world applications, and enhance my portfolio. A passion project like this would also provide valuable experience for my future career.
 
 \subsubsection{Current State of Aerial Delivery Systems}
-Aerial delivery systems have evolved significantly, with companies like Zipline leading the U.S. drone-delivery industry. By 2024, drones completed around 14,000 deliveries daily worldwide, a number projected to reach 800 million annually by 2034.
+Aerial delivery systems have advanced significantly, with companies like Zipline leading the U.S. drone delivery industry. By 2024, drones completed approximately 14,000 deliveries daily worldwide, a figure projected to reach 800 million annually by 2034.
 
-Major players such as Amazon, Google, Walmart, DroneUp, and Matternet are actively developing and deploying drone delivery services. For instance, Amazon conducted its first drone delivery test in Italy in December 2024, using the MK30 drone capable of carrying up to five pounds and operating in light rain.
+Major players, including Amazon, Google, Walmart, DroneUp, and Matternet, are actively developing and deploying drone delivery services. For example, Amazon conducted its first drone delivery test in Italy in December 2024, using the MK30 drone, which can carry up to five pounds and operate in light rain.
 
-Aerial delivery systems offer the following advantages over traditional delivery methods:
-\begin{itemize}
-    \item Faster delivery times compared to traditional methods.
+Aerial delivery systems offer several advantages over traditional delivery methods:
+\begin{enumerate}
+    \item Faster delivery times compared to conventional methods.
     \item Reduced operational costs due to lower energy consumption and labor expenses.
-    \item Ability to access remote and rural areas without the need for extensive infrastructure.
-    \item Environmentally friendly with lower carbon emissions per package delivered.
-    \item Enhanced supply chain resilience, especially during emergencies or disruptions.
+    \item Accessibility to remote and rural areas without requiring extensive infrastructure.
+    \item Environmental benefits, with lower carbon emissions per package delivered.
+    \item Enhanced supply chain resilience, particularly during emergencies or disruptions.
     \item Improved inventory management through frequent, small-scale deliveries.
-\end{itemize}
+\end{enumerate}
 
-However, current systems face several challenges, including:
+Nevertheless, current systems face significant challenges, including:
 \begin{itemize}
-    \item Regulatory hurdles
-    \item Safety concerns
-    \item Public apprehension
-    \item Limited payload capacity
-    \item Vulnerability to adverse weather
-    \item High operational costs
+    \item Regulatory hurdles.
+    \item Safety concerns.
+    \item Public apprehension.
+    \item Limited payload capacity.
+    \item Vulnerability to adverse weather conditions.
+    \item High operational costs.
 \end{itemize}
 
-This project aims to address these challenges by developing an advanced aerial package delivery system that overcomes the limitations of existing solutions.
+This project seeks to address these challenges by developing an advanced aerial package delivery system that overcomes the limitations of existing solutions.
 
 \subsection{Objective}
 The objective of this project is to \textbf{design and develop an advanced aerial package delivery system} that can \textbf{efficiently transport small to medium-sized payloads over varying distances}. The system will be composed of four key components:
@@ -92,26 +98,34 @@ The objective of this project is to \textbf{design and develop an advanced aeria
 The success of the project will be measured using the following key performance indicators.
 
 \textit{The specific method of measurement for each KPI is yet to be determined.}
-\begin{itemize}
-    \item Drop-off accuracy (i.e., distance from the intended delivery location).
+\begin{enumerate}
+    % Operational Performance Metrics
     \item Mission success rate (i.e., the ratio between the number of successful missions and the total number of attempted missions).
-    \item Average distance traveled per unit of battery capacity (km/wh).
-    \item Maximum operational time per full charge under normal conditions.
-    \item Time and energy required to switch between VTOL and fixed-wing modes.
-    \item Maximum payload weight the system can transport reliably.
-    \item Maximum allowed deviation from center of gravity during flight with varying payload distributions.
-    \item Time required to autonomously and reliably pick up or drop off a payload.
-    \item Percentage of successful obstacle detections and avoidances during flight.
-    \item Time reduced in delays for simultaneous delivery missions.
-    \item Average time latency for the Adaptive Flight Control Interface (AFCI) to execute commands.
-    \item Time required for an operator to prepare and verify a device for flight.
-    \item User satisfaction scores on a scale of 1-10 based on ease of use and reliability.
+    \item Drop-off accuracy (i.e., distance from the intended delivery location).
     \item Percentage of successful landings after a simulated single/multi-motor or system failure.
     \item Performance under various weather conditions.
     \item Percentage of correctly identified and reported system errors.
+
+    % Efficiency Metrics
+    \item Average distance traveled per unit of battery capacity (km/Wh).
+    \item Maximum operational time per full charge under normal conditions.
+    \item Time and energy required to switch between VTOL and fixed-wing modes.
+    \item Time reduced in delays for simultaneous delivery missions.
     \item Average total cost of operation per single delivery.
+
+    % Payload and Flight Dynamics
+    \item Maximum payload weight the system can transport reliably.
+    \item Maximum allowed deviation from the center of gravity during flight with varying payload distributions.
+    \item Time required to autonomously and reliably pick up or drop off a payload.
+
+    % Interface and User Experience
+    \item Average time latency for the Adaptive Flight Control Interface (AFCI) to execute commands.
+    \item Time required for an operator to prepare and verify the device for flight.
+    \item User satisfaction scores on a scale of 1–10 based on ease of use and reliability.
+
+    % Maintenance and Longevity
     \item Average time between required repairs or system maintenance tasks.
-\end{itemize}
+\end{enumerate}
 
 \subsection{Stakeholders and Roles}
 The following stakeholders will be involved in the project:
@@ -134,16 +148,14 @@ The following stakeholders will be involved in the project:
 There are a few other potential resources that may be involved in the project, shown below.
 
 \textit{All aid from external resources will be acknowledged and credited appropriately.}
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Academic Colleagues} \\
     May be consulted based on expertise to assist in the development of specific components. Specific people are yet to be decided upon.
-    \item \textbf{Subject Matter Expert (SME)} \\
+    \item \textbf{Subject Matter Expert(s) (SME(s))} \\
     May be consulted for assistance with high-level technical challenges. The SME(s) will be identified and contacted as needed.
     \item \textbf{Manufacturing Partners} \\
-    May be engaged to produce specific components or subsystems. Partners will be selected based on their expertise and capabilities.
-    \item \textbf{Generative AI Models} \\
-    May be used to assist in the building of certain system components. The specific models and their developers will be identified as needed.
-\end{itemize}
+    May be engaged to produce specific components or subsystems. Potential cadidates include school workshops and external manufacturers.
+\end{enumerate}
 
 \subsection{Timeline}
 Forenote: The project is \textit{not} expected to be completed by the Capstone presentation in September 2025. The timeline below outlines the key milestones for the project:
@@ -179,7 +191,6 @@ Forenote: The project is \textit{not} expected to be completed by the Capstone p
     \end{itemize}
 \end{itemize}
 
-\newpage
 \section{Concept Development}
 \subsection{System Architecture}
 
@@ -188,12 +199,12 @@ The DAMS will feature a Vertical Take-Off and Landing (VTOL) flight system, capa
 
 \subsubsection{Payload Retrieval and Deployment Module (PRDM)}
 The PRDM will be responsible for the autonomous retrieval and deployment of payloads. It will utilize the \textbf{Payload Control Unit} to manage and control various components for payload operations. Key features will include:
-\begin{itemize}
+\begin{enumerate}
     \item An opening/closing door for payload access, controlled by actuators.
     \item A clamp mechanism to securely hold the payload during flight.
     \item A winch mechanism for raising and lowering the payload during retrieval and deployment.
     \item Proximity and weight sensors to monitor payload positioning and distribution, providing real-time data to the DAMS to ensure stability and balance.
-\end{itemize}
+\end{enumerate}
 The PRDM will work in coordination with the \textbf{DAMS} to ensure the aircraft maintains stability and efficient operation during payload operations.
 
 \subsubsection{Automated Flight Navigation System (AFNS)}
@@ -201,138 +212,156 @@ The AFNS will determine the optimal flight path from the source to the destinati
 
 \subsubsection{Adaptive Flight Control Interface (AFCI)}
 The AFCI will serve as the human-machine interface, allowing the operator to interact with both the AFNS and the DAMS. It will feature:
-\begin{itemize}
+\begin{enumerate}
     \item Multiple modes of operation, including manual, semi-autonomous, and autonomous.
     \item Input devices such as screens, keyboards, mice, and controllers.
     \item A speech control interface for hands-free operation, integrated with an audio recorder and speaker system.
     \item A heads-up display (HUD) for providing real-time telemetry and flight data to the operator.
-\end{itemize}
+\end{enumerate}
 The AFCI will ensure that operators have full control and oversight during all phases of operation, while enabling user-friendly interaction with the system.
 
 \noindent\rule{\textwidth}{0.4pt}
 
 Below is a diagram displaying the correlations between the four different components (created using \href{https://www.diagrams.net/}{diagrams.net}):
 
-\begin{figure}[h]
-    \centering
-    \begin{tikzpicture}
-        \node[inner sep=0pt] (diagram) at (0,0) {\includegraphics[width=\textwidth]{resources/system-architecture.drawio.pdf}};
-        \draw [line width=1pt, rounded corners=10pt] 
-            (diagram.north west) rectangle 
-            (diagram.south east);
-    \end{tikzpicture}
-    \caption{System Architecture Diagram}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+    \node[inner sep=0pt] (diagram) at (0,0) {\includegraphics[width=\textwidth]{resources/system-architecture.drawio.pdf}};
+    \draw [line width=1pt, rounded corners=10pt] 
+        (diagram.north west) rectangle 
+        (diagram.south east);
+\end{tikzpicture}
+\caption{System Architecture Diagram}
 \end{figure}
 
-\newpage
+\subsection{Design Aspects}
+The design of the system will focus on the following aspects to ensure optimal performance and efficiency:
+\subsubsection{Dynamic Aerial Mobility System (DAMS)}
+\textbf{1. Fixed-Wing Mode}
 
-\section{Development Approach}
-
-Below is a brief overview of the development approach for each component of the system:
-
-\subsection{Dynamic Aerial Mobility System (DAMS)}
-\subsubsection{Fixed Wing Mode}
 The fixed-wing mode will be optimized for efficient cruising and long-range flight.
 The following aspects will be considered during the development of the fixed-wing mode:
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Aspect Ratio} (Ratio of wing span to mean chord length)
     \item \textbf{Airfoil} (Shape of the wing cross-section)
     \item \textbf{Sweep Angle} (Angle of the wing relative to the aircraft's longitudinal axis)
     \item \textbf{Dihedral Angle} (Upward angle of the wings from horizontal)
-    \item \textbf{Required Thrust} (Amount of thrust needed for flight)
-    \item \textbf{Aerodynamics} (Study of the motion of air and its interaction with the aircraft)
+    \item \textbf{Required Thrust} (Amount of thrust needed for level flight)
+    \item \textbf{Aerodynamics}
     \item \textbf{Control Surfaces} (Movable surfaces used to control the aircraft's attitude)
     \item \textbf{Stall Speed} (Minimum speed at which the aircraft can maintain level flight)
-    \item \textbf{L/D Ratio} (Lift-to-drag ratio, a measure of aerodynamic efficiency)
-    \item \textbf{Wing Loading} (Weight of the aircraft divided by the wing area)
+    \item \textbf{L/D Ratio} (Lift-to-drag ratio)
+    \item \textbf{Wing Loading} (Ratio of aircraft weight to wing area)
     \item \textbf{Tail Configuration} (Design and arrangement of the tail surfaces)
-    \item \textbf{Material Selection} (Choice of materials for constructing the aircraft)
-\end{itemize}
+\end{enumerate}
 
 Multiple iterations of the fixed-wing design will be tested using simulation software to optimize performance and efficiency before physical prototyping.
 
-\subsubsection{VTOL Mode}
+\textbf{2. VTOL Mode}
+
 The VTOL mode will be optimized for vertical takeoff and landing, providing stability and control during these critical phases of flight.
 The following aspects will be considered during the development of the VTOL mode:
-\begin{itemize}
-    \item \textbf{Thrust Vectoring} (Control of thrust direction for maneuverability)
-    \item \textbf{Propeller Configuration} (Number and arrangement of propellers for lift)
-    \item \textbf{Material Selection} (Choice of materials for constructing the aircraft)
-\end{itemize}
+\begin{enumerate}
+    \item \textbf{Propeller Configuration} (Number and arrangement of propellers)
+    \item \textbf{Movement DOFs} (Methods of achieveing pitch, roll, and yaw control)
+    \item \textbf{Propeller Aspects} (Size, material, pitch, blade count, and noise)
+\end{enumerate}
 
 The VTOL mode will be integrated with the fixed-wing mode to ensure mechanical and aerodynamic compatibility, allowing for seamless transitions between flight modes.
 
-\subsubsection{General Flight}
+\textbf{3. General Flight}
+
 The DAMS will be designed to seamlessly transition between fixed-wing and VTOL modes, ensuring smooth and efficient flight operations.
 
 The following aspects will be considered during the development of the general flight capabilities:
-\begin{itemize}
-    \item \textbf{Propulsion System} (Engines, motors, or rotors used for vertical lift)
-    \item \textbf{Control Surfaces} (Ailerons, elevators, rudders, and flaps for maneuvering)
+\begin{enumerate}
+    \item \textbf{Propulsion System} (Type, required amount, energy consumption)
     \item \textbf{Transition Mechanism} (Mechanism for switching between VTOL and fixed-wing modes)
-    \item \textbf{Stability Augmentation} (Systems to enhance stability during takeoff and landing)
-    \item \textbf{Power Source} (Battery or fuel system for providing energy)
+    \item \textbf{Control Algorithm} (Flight control system for stability and maneuverability)
+    \item \textbf{Power Source} (Battery or fuel, or a combination of both)
     \item \textbf{Safety Features} (Redundant systems, fail-safe mechanisms, and failure detection and mitigation)
     \item \textbf{Payload Handling} (Integration with the PRDM for payload operations)
-\end{itemize}
+    \item \textbf{Communication Systems} (Data exchange with the AFNS)
+    \item \textbf{Material Selection} (Lightweight and durable materials for structural components)
+\end{enumerate}
 
 The DAMS will undergo rigorous testing to ensure reliability, stability, and efficiency during flight operations.
 
-\subsection{Payload Retrieval and Deployment Module (PRDM)}
+\subsubsection{Payload Retrieval and Deployment Module (PRDM)}
 The PRDM will be designed to autonomously handle payloads, ensuring secure and efficient retrieval and deployment.
 
 The following aspects will be considered during the development of the PRDM:
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Payload Handling Mechanism} (Clamps, winches, and doors for payload operations)
     \item \textbf{Payload Sensors} (Proximity sensors, weight sensors, and cameras for monitoring payloads)
-    \item \textbf{Payload Control Unit} (System for managing payload operations)
     \item \textbf{Payload Security} (Mechanisms to secure payloads during flight)
     \item \textbf{Payload Compatibility} (Design considerations for various payload sizes and shapes)
-    \item \textbf{Payload Integration} (Integration with the DAMS for stability and balance)
-\end{itemize}
+    \item \textbf{System Integration} (Integration with the DAMS for stability and balance)
+\end{enumerate}
 
 The PRDM will be tested under various conditions to ensure reliable and efficient payload handling, with a focus on safety and stability during flight operations.
 
-\subsection{Automated Flight Navigation System (AFNS)}
+\subsubsection{Automated Flight Navigation System (AFNS)}
 The AFNS will be designed to provide precise and autonomous navigation for the aircraft, ensuring efficient flight paths and mission success. It will be a primarily software-based, on-ground system that interfaces with the DAMS and PRDM for flight control and payload operations.
 
 The following aspects will be considered during the development of the AFNS:
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Path Planning} (Optimal route selection based on mission requirements)
     \item \textbf{Obstacle Avoidance} (Detection and avoidance of obstacles during flight)
     \item \textbf{Mission Management} (Coordination of multiple aircraft and deliveries)
-    \item \textbf{Real-Time Data Processing} (Processing of sensor data for navigation and control)
+    \item \textbf{Real-Time Data Processing} (Processing of DAMS data for navigation and control)
     \item \textbf{Communication Protocols} (Data exchange between the AFNS and DAMS)
     \item \textbf{Autonomous Decision-Making} (Automated responses to changing flight conditions)
     \item \textbf{Redundancy and Fail-Safe Mechanisms} (Backup systems and safety features)
-\end{itemize}
+\end{enumerate}
 
 The DAMS will be programmed to operate independently in case of a failure in the AFNS, and vice versa. The AFNS will be tested in simulation and real-world scenarios to ensure reliable and efficient navigation under various conditions.
 
-\subsection{Adaptive Flight Control Interface (AFCI)}
+\subsubsection{Adaptive Flight Control Interface (AFCI)}
 The AFCI will be designed to provide a user-friendly interface for operators to interact with the system, ensuring ease of use and oversight during flight operations.
 
 The following aspects will be considered during the development of the AFCI:
-\begin{itemize}
-    \item \textbf{User Interface Design} (Layout, controls, and feedback mechanisms for operators)
+\begin{enumerate}
+    \item \textbf{Operator and User Interface Design} (Layout, controls, and feedback mechanisms for operators)
     \item \textbf{Input Devices} (Screens, keyboards, controllers, and speech recognition systems)
+    \item \textbf{Speech Control Interface} (Voice commands for hands-free operation)
     \item \textbf{Telemetry and Data Display} (Real-time flight data and system status information)
     \item \textbf{Control Modes} (Manual, semi-autonomous, and autonomous control options)
     \item \textbf{Safety Features} (Emergency stop, return-to-home, and system diagnostics)
     \item \textbf{Integration with AFNS} (Communication and data exchange with the AFNS)
-\end{itemize}
+\end{enumerate}
 
-The AFCI will be tested for usability, reliability, and efficiency, with a focus on operator satisfaction and system performance during flight operations.
+The AFCI will be tested for usability, reliability, and efficiency, with a focus on operator efficienty, user ease-of-use, and system performance during flight operations.
 
 \subsection{Required Resources}
-The development of the system will require the following resources:
+The development of the project will require the following resources:
 \begin{enumerate}
-    \item \textbf{Hardware Components} (Sensors, actuators, motors, controllers, batteries, and structural materials)
-    \item \textbf{Software Tools} (CAD software, simulation tools, programming languages, and development environments)
-    \item \textbf{Manufacturing Facilities} (3D printers, CNC machines, and other fabrication equipment)
-    \item \textbf{Testing Environments} (Indoor and outdoor testing areas, flight simulators, and safety equipment)
-    \item \textbf{Technical Expertise} (Engineering, electronics, and computer science knowledge)
-    \item \textbf{Funding} (Budget for purchasing components, materials, and resources)
+    \item \textbf{Hardware Components} (BOM soon to be created) 
+    \begin{itemize}
+        \item Motors, propellers, and ESCs (Electronic Speed Controllers)
+        \item Flight controllers and IMUs
+        \item Sensors (GPS, cameras, LIDAR, proximity sensors, and weight sensors)
+        \item Batteries and power distribution systems
+        \item Actuators (servos, linear actuators, and winches)
+        \item Structural components and materials (carbon fiber, aluminum, and 3D-printed parts)
+    \end{itemize}
+    \item \textbf{Software Tools}
+    \begin{itemize}
+        \item CAD software (SolidWorks, Fusion 360, and ANSYS)
+        \item Programming tools (GitHUb, VS Code, and Python)
+        \item Simulation software for testing and validation (MATLAB, Simulink, and Gazebo)
+    \end{itemize}
+    \item \textbf{Manufacturing Facilities}
+    \begin{itemize}
+        \item 3D printers, CNC machines, and laser cutters
+        \item Workshop tools for assembly and prototyping
+    \end{itemize}
+    \item \textbf{Testing Environments}
+    \begin{itemize}
+        \item Indoor and outdoor testing areas for flight trials
+        \item Simulation software for virtual testing and validation
+    \end{itemize}
 \end{enumerate}
 
 \section{Conclusion}

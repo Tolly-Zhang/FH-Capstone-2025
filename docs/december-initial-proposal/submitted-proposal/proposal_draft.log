@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  31 DEC 2024 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  1 JAN 2025 16:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -369,31 +369,38 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip52
+) (C:\Users\Tolly Zhang\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks32
+\float@box=\box64
+\@float@everytoks=\toks33
+\@floatcapt=\box65
 ) (C:\Users\Tolly Zhang\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box66
 ) (proposal_draft.aux)
 \openout1 = `proposal_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -431,24 +438,24 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Users\Tolly Zhang\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
+\scratchcounter=\count308
 \scratchdimen=\dimen263
-\scratchbox=\box65
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count310
+\scratchbox=\box67
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count311
 \MPscratchDim=\dimen264
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks35
 ) (C:\Users\Tolly Zhang\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Tolly Zhang\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 15.
  (proposal_draft.out) (proposal_draft.out)
 \@outlinefile=\write4
 \openout4 = `proposal_draft.out'.
@@ -463,15 +470,15 @@ Package hyperref Info: Link coloring OFF on input line 14.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 \newpage
+l.46 \newpage
               [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71     \item L
-                imited payload capacity [1]
+l.77     \item L
+                imited payload capacity. [1]
 
 [2]
 
@@ -480,55 +487,53 @@ l.71     \item L
 [4]
 
 [5]
-
-[6]
-<resources/system-architecture.drawio.pdf, id=146, 1433.355pt x 610.19968pt>
+<resources/system-architecture.drawio.pdf, id=161, 1433.355pt x 610.19968pt>
 File: resources/system-architecture.drawio.pdf Graphic file (type pdf)
 <use resources/system-architecture.drawio.pdf>
-Package pdftex.def Info: resources/system-architecture.drawio.pdf  used on input line 219.
+Package pdftex.def Info: resources/system-architecture.drawio.pdf  used on input line 230.
 (pdftex.def)             Requested size: 469.75502pt x 199.97919pt.
 
-Overfull \hbox (1.39998pt too wide) in paragraph at lines 223--224
+Overfull \hbox (1.39998pt too wide) in paragraph at lines 234--235
  [][] 
  []
 
 
 
-[7 <./resources/system-architecture.drawio.pdf>]
+[6]
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.255     \item \textbf
+                       {Wing Loading} (Ratio of aircraft weight to wing area) <./resources/system-architecture.drawio.pdf>]
 
 [8]
 
 [9]
 
 [10]
-Overfull \hbox (1.68318pt too wide) in paragraph at lines 330--331
-[]\OT1/cmr/bx/n/12 Hardware Com-po-nents \OT1/cmr/m/n/12 (Sen-sors, ac-tu-a-tors, mo-tors, con-trollers, bat-ter-ies, and struc-
- []
 
-
-
-[11]
-
-[12] (proposal_draft.aux)
+[11] (proposal_draft.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `proposal_draft.out' has not changed.
-(rerunfilecheck)             Checksum: 3492BA28B724DC0D3F362BC9BF360195;4688.
+(rerunfilecheck)             Checksum: 4449042753447F63D87F0418408724BB;4306.
  ) 
 Here is how much of TeX's memory you used:
- 19880 strings out of 473896
- 379764 string characters out of 5723572
- 752681 words of memory out of 5000000
- 42416 multiletter control sequences out of 15000+600000
+ 20015 strings out of 473896
+ 381312 string characters out of 5723572
+ 755064 words of memory out of 5000000
+ 42478 multiletter control sequences out of 15000+600000
  561821 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,8n,107p,850b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Tolly Zhang\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proposal_draft.pdf (14 pages, 528591 bytes).
+Output written on proposal_draft.pdf (13 pages, 537391 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
