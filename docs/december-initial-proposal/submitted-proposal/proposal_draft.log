@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  1 JAN 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  2 JAN 2025 21:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -383,24 +383,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (proposal_draft.aux)
 \openout1 = `proposal_draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -455,7 +455,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Tolly Zhang\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 23.
  (proposal_draft.out) (proposal_draft.out)
 \@outlinefile=\write4
 \openout4 = `proposal_draft.out'.
@@ -470,43 +470,80 @@ Package hyperref Info: Link coloring OFF on input line 15.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 \newpage
+l.54 \newpage
               [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77     \item L
+l.85     \item L
                 imited payload capacity. [1]
+<resources/wing-drone.png, id=117, 1212.53pt x 808.01875pt>
+File: resources/wing-drone.png Graphic file (type png)
+<use resources/wing-drone.png>
+Package pdftex.def Info: resources/wing-drone.png  used on input line 97.
+(pdftex.def)             Requested size: 225.4804pt x 150.25787pt.
 
-[2]
+Overfull \hbox (1.39998pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 102.
+<resources/zipline-drone.png, id=119, 1016.79875pt x 677.53125pt>
+File: resources/zipline-drone.png Graphic file (type png)
+<use resources/zipline-drone.png>
+Package pdftex.def Info: resources/zipline-drone.png  used on input line 106.
+(pdftex.def)             Requested size: 225.4804pt x 150.24623pt.
+
+Overfull \hbox (1.39998pt too wide) in paragraph at lines 108--109
+ [][] 
+ []
+
+
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132     \item M
+                 ission success rate (i.e., the ratio between the number of ...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132     \item M
+                 ission success rate (i.e., the ratio between the number of ... <./resources/wing-drone.png> <./resources/zipline-drone.png>]
 
 [3]
 
 [4]
 
 [5]
-<resources/system-architecture.drawio.pdf, id=161, 1433.355pt x 610.19968pt>
+
+[6]
+<resources/system-architecture.drawio.pdf, id=175, 1433.355pt x 610.19968pt>
 File: resources/system-architecture.drawio.pdf Graphic file (type pdf)
 <use resources/system-architecture.drawio.pdf>
-Package pdftex.def Info: resources/system-architecture.drawio.pdf  used on input line 230.
+Package pdftex.def Info: resources/system-architecture.drawio.pdf  used on input line 280.
 (pdftex.def)             Requested size: 469.75502pt x 199.97919pt.
 
-Overfull \hbox (1.39998pt too wide) in paragraph at lines 234--235
+Overfull \hbox (1.39998pt too wide) in paragraph at lines 284--285
  [][] 
  []
 
 
 
-[6]
-
 [7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.255     \item \textbf
-                       {Wing Loading} (Ratio of aircraft weight to wing area) <./resources/system-architecture.drawio.pdf>]
+l.299     \item \textbf
+                       {Sweep Angle} (Angle of the wing relative to the airc... <./resources/system-architecture.drawio.pdf>]
 
 [8]
 
@@ -514,7 +551,9 @@ l.255     \item \textbf
 
 [10]
 
-[11] (proposal_draft.aux)
+[11]
+
+[12] (proposal_draft.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
@@ -523,17 +562,17 @@ Package rerunfilecheck Info: File `proposal_draft.out' has not changed.
 (rerunfilecheck)             Checksum: 4449042753447F63D87F0418408724BB;4306.
  ) 
 Here is how much of TeX's memory you used:
- 20015 strings out of 473896
- 381312 string characters out of 5723572
- 755064 words of memory out of 5000000
- 42478 multiletter control sequences out of 15000+600000
- 561821 words of font info for 48 fonts, out of 8000000 for 9000
+ 20059 strings out of 473896
+ 382113 string characters out of 5723572
+ 756214 words of memory out of 5000000
+ 42512 multiletter control sequences out of 15000+600000
+ 564259 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,107p,850b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,107p,850b,734s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Tolly Zhang\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tolly Zhang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proposal_draft.pdf (13 pages, 537391 bytes).
+Output written on proposal_draft.pdf (14 pages, 1395249 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

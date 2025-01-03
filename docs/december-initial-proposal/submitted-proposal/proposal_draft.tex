@@ -12,6 +12,14 @@
 \setlength{\parskip}{1em}
 \setlength{\parindent}{0pt}
 
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.7}
+
 \begin{document}
 
 \begin{titlepage}
@@ -55,9 +63,9 @@
 I have a strong passion for aviation and autonomous systems, complemented by skills in engineering, electronics, and computer science. In November 2020 and May 2021, I worked on a project to build a quadcopter drone. At the time, my resources and capabilities were limited, but both my knowledge and access to resources have significantly improved since then. I aim to use this project to further develop my expertise, create a system with real-world applications, and enhance my portfolio. A passion project like this would also provide valuable experience for my future career.
 
 \subsubsection{Current State of Aerial Delivery Systems}
-Aerial delivery systems have advanced significantly, with companies like Zipline leading the U.S. drone delivery industry. By 2024, drones completed approximately 14,000 deliveries daily worldwide, a figure projected to reach 800 million annually by 2034.
+Aerial delivery systems have advanced significantly, with companies like Wing (Figure \ref{fig:wing-drone}) and Zipline (Figure \ref{fig:zipline-drone}) leading the U.S. drone delivery industry. By 2024, drones completed approximately 14,000 deliveries daily worldwide, a figure projected to reach 800 million annually by 2034.
 
-Major players, including Amazon, Google, Walmart, DroneUp, and Matternet, are actively developing and deploying drone delivery services. For example, Amazon conducted its first drone delivery test in Italy in December 2024, using the MK30 drone, which can carry up to five pounds and operate in light rain.
+Major players, including Amazon, Google, Walmart, DroneUp, and Matternet, are actively developing and deploying drone delivery services. For example, Amazon conducted its first drone delivery test in Italy in December 2024, using the \textit{MK30} drone, which can carry up to five pounds and operate in light rain.
 
 Aerial delivery systems offer several advantages over traditional delivery methods:
 \begin{enumerate}
@@ -81,6 +89,28 @@ Nevertheless, current systems face significant challenges, including:
 
 This project seeks to address these challenges by developing an advanced aerial package delivery system that overcomes the limitations of existing solutions.
 
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \node[inner sep=0pt] (img) at (0,0) {\includegraphics[width=\textwidth]{resources/wing-drone.png}};
+            \draw [line width=1pt] (img.north west) rectangle (img.south east);
+        \end{tikzpicture}
+        \caption{Wing's \textit{Hummingbird} Drone}
+        \label{fig:wing-drone}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \node[inner sep=0pt] (img) at (0,0) {\includegraphics[width=\textwidth]{resources/zipline-drone.png}};
+            \draw [line width=1pt] (img.north west) rectangle (img.south east);
+        \end{tikzpicture}
+        \caption{Zipline's \textit{Sparrow} Drone}
+        \label{fig:zipline-drone}
+    \end{minipage}
+\end{figure}
+
 \subsection{Objective}
 The objective of this project is to \textbf{design and develop an advanced aerial package delivery system} that can \textbf{efficiently transport small to medium-sized payloads over varying distances}. The system will be composed of four key components:
 \begin{enumerate}
@@ -95,8 +125,7 @@ The objective of this project is to \textbf{design and develop an advanced aeria
 \end{enumerate}
 
 \subsection{Key Performance Indicators (KPIs)}
-The success of the project will be measured using the following key performance indicators.
-
+The success of the project will be measured using the following KPIs.
 \textit{The specific method of measurement for each KPI is yet to be determined.}
 \begin{enumerate}
     % Operational Performance Metrics
@@ -108,7 +137,7 @@ The success of the project will be measured using the following key performance 
 
     % Efficiency Metrics
     \item Average distance traveled per unit of battery capacity (km/Wh).
-    \item Maximum operational time per full charge under normal conditions.
+    \item Maximum operational time and/or distance per full charge under normal conditions.
     \item Time and energy required to switch between VTOL and fixed-wing modes.
     \item Time reduced in delays for simultaneous delivery missions.
     \item Average total cost of operation per single delivery.
@@ -136,7 +165,6 @@ The following stakeholders will be involved in the project:
         \item Developing, building, and testing all components of the system.
         \item Ensuring compliance with project requirements and deadlines.
         \item Managing the project budget and resources.
-        \item Overseeing the integration of the system components.
     \end{itemize}
     \item \textbf{Mr. Michael Ho (and other SA teachers)} (Academic Advisor(s)) \\
     Provides guidance and support throughout the project. Roles include:
@@ -146,15 +174,39 @@ The following stakeholders will be involved in the project:
     \end{itemize}
 \end{enumerate}
 There are a few other potential resources that may be involved in the project, shown below.
-
 \textit{All aid from external resources will be acknowledged and credited appropriately.}
 \begin{enumerate}
     \item \textbf{Academic Colleagues} \\
-    May be consulted based on expertise to assist in the development of specific components. Specific people are yet to be decided upon.
+    May be consulted based on expertise to assist in the development of specific components. Specific people are yet to be decided upon. May be responsible for:
+    \begin{itemize}
+        \item Providing technical advice and guidance.
+        \item Assiting with the development and testing of specific components.
+        \item Reviewing and validating the project's design and performance.
+    \end{itemize}
     \item \textbf{Subject Matter Expert(s) (SME(s))} \\
-    May be consulted for assistance with high-level technical challenges. The SME(s) will be identified and contacted as needed.
+    May be consulted for assistance with high-level technical challenges. The SME(s) will be identified and contacted as needed. May be reponsible for:
+    \begin{itemize}
+        \item Providing expert advice on specific technical aspects of the project.
+        \item Assisting with the development of complex systems that require specialized knowledge that is not available within the project team.
+    \end{itemize}
     \item \textbf{Manufacturing Partners} \\
-    May be engaged to produce specific components or subsystems. Potential cadidates include school workshops and external manufacturers.
+    May be engaged to produce specific components or subsystems. Potential cadidates include school workshops and external manufacturers. May be responsible for:
+    \begin{itemize}
+        \item Manufacturing components using specific manufacturing technologies, such as:
+        \begin{itemize}
+            \item 3D printing, such as:
+            \begin{itemize}
+                \item Fused Deposition Modeling (FDM).
+                \item Stereolithography (SLA).
+                \item Selective Laser Sintering (SLS).
+            \end{itemize}
+            \item CNC machining.
+            \item Laser cutting.
+            \item Injection molding.
+        \end{itemize}
+        \item Providing expertise in material selection and manufacturing processes.
+        \item Ensuring the quality and reliability of manufactured components.
+    \end{itemize}
 \end{enumerate}
 
 \subsection{Timeline}
@@ -194,6 +246,8 @@ Forenote: The project is \textit{not} expected to be completed by the Capstone p
 \section{Concept Development}
 \subsection{System Architecture}
 
+Refer to Figure \ref{fig:system-architecture} for a system architecture diagram created using digrams.net.
+
 \subsubsection{Dynamic Aerial Mobility System (DAMS)}
 The DAMS will feature a Vertical Take-Off and Landing (VTOL) flight system, capable of switching between VTOL and fixed-wing flight modes. The VTOL mode will be used for takeoff and landing, while the fixed-wing mode will facilitate efficient cruising. The DAMS integrates the \textbf{Dynamic Flight Control Unit}, which ensures smooth transitions between flight modes using \textbf{actuators} to control components such as rudders, elevators, and ailerons. Sensors, including IMUs (Inertial Measurement Units) and LIDAR, will provide real-time feedback for stability and maneuverability during flight. The DAMS will also interface with the \textbf{Automated Flight Navigation System (AFNS)} for autonomous flight control.
 
@@ -220,25 +274,22 @@ The AFCI will serve as the human-machine interface, allowing the operator to int
 \end{enumerate}
 The AFCI will ensure that operators have full control and oversight during all phases of operation, while enabling user-friendly interaction with the system.
 
-\noindent\rule{\textwidth}{0.4pt}
-
-Below is a diagram displaying the correlations between the four different components (created using \href{https://www.diagrams.net/}{diagrams.net}):
-
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}
     \node[inner sep=0pt] (diagram) at (0,0) {\includegraphics[width=\textwidth]{resources/system-architecture.drawio.pdf}};
-    \draw [line width=1pt, rounded corners=10pt] 
+    \draw [line width=1pt] 
         (diagram.north west) rectangle 
         (diagram.south east);
 \end{tikzpicture}
 \caption{System Architecture Diagram}
+\label{fig:system-architecture}
 \end{figure}
 
 \subsection{Design Aspects}
 The design of the system will focus on the following aspects to ensure optimal performance and efficiency:
 \subsubsection{Dynamic Aerial Mobility System (DAMS)}
-\textbf{1. Fixed-Wing Mode}
+\textbf{Fixed-Wing Mode}
 
 The fixed-wing mode will be optimized for efficient cruising and long-range flight.
 The following aspects will be considered during the development of the fixed-wing mode:
@@ -258,7 +309,7 @@ The following aspects will be considered during the development of the fixed-win
 
 Multiple iterations of the fixed-wing design will be tested using simulation software to optimize performance and efficiency before physical prototyping.
 
-\textbf{2. VTOL Mode}
+\textbf{VTOL Mode}
 
 The VTOL mode will be optimized for vertical takeoff and landing, providing stability and control during these critical phases of flight.
 The following aspects will be considered during the development of the VTOL mode:
@@ -270,7 +321,7 @@ The following aspects will be considered during the development of the VTOL mode
 
 The VTOL mode will be integrated with the fixed-wing mode to ensure mechanical and aerodynamic compatibility, allowing for seamless transitions between flight modes.
 
-\textbf{3. General Flight}
+\textbf{General Flight}
 
 The DAMS will be designed to seamlessly transition between fixed-wing and VTOL modes, ensuring smooth and efficient flight operations.
 
@@ -325,9 +376,9 @@ The following aspects will be considered during the development of the AFCI:
 \begin{enumerate}
     \item \textbf{Operator and User Interface Design} (Layout, controls, and feedback mechanisms for operators)
     \item \textbf{Input Devices} (Screens, keyboards, controllers, and speech recognition systems)
-    \item \textbf{Speech Control Interface} (Voice commands for hands-free operation)
     \item \textbf{Telemetry and Data Display} (Real-time flight data and system status information)
     \item \textbf{Control Modes} (Manual, semi-autonomous, and autonomous control options)
+    \item \textbf{Speech Control Interface} (Voice commands for hands-free operation)
     \item \textbf{Safety Features} (Emergency stop, return-to-home, and system diagnostics)
     \item \textbf{Integration with AFNS} (Communication and data exchange with the AFNS)
 \end{enumerate}
@@ -349,7 +400,7 @@ The development of the project will require the following resources:
     \item \textbf{Software Tools}
     \begin{itemize}
         \item CAD software (SolidWorks, Fusion 360, and ANSYS)
-        \item Programming tools (GitHUb, VS Code, and Python)
+        \item Programming tools (GitHub, VS Code, and Python)
         \item Simulation software for testing and validation (MATLAB, Simulink, and Gazebo)
     \end{itemize}
     \item \textbf{Manufacturing Facilities}
